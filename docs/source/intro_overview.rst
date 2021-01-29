@@ -16,8 +16,8 @@ iRODS allows to store data in a file directory tree and also annotate folders (c
 
     An overview of the RODEOS system.
     Instruments write their data to a network share (*landing zone*).
-    The data is then imported (*ingested*) into the RODEOS iRODS serverer.
-    Facility staff can use several interfaces to manage and share the data to facility customers that can use different interfaces to accessing the data.
+    The data is then imported (*ingested*) into the RODEOS iRODS server.
+    Facility staff can use several interfaces to manage and share the data to facility customers that can use different interfaces to access the data.
 
 Instruments and other data generation processes (such as automated data post processing steps) write the data to a particular folder for the given instrument on network file shares (so-called *landing zones*).
 These landing zones are monitored by automated import (so-called *ingest*) processes.
@@ -27,13 +27,13 @@ RODEOS provides different interfaces to the data in the iRODS system.
 
 iRODS Server
     Users can connect directly to the iRODS server with native iRODS command line tools and client libraries.
-    This facilitates automated data download or manipulation with scripts and on the command line for power users.
+    This facilitates automated data download or manipulation with scripts on the command line for power users.
 WebDAV Server
     The data is also exposed through a WebDAV server.
     The WebDAV protocol is supported by many graphical clients and operating systems.
     This allows users for graphical access to their data.
 Metalnx Server
-    Metalnx is a web-based graphical tool for accessin iRODS server functionality.
+    Metalnx is a web-based graphical tool for accessing iRODS server functionality.
     This server provides omics facility staff with the required data management tools.
     While not directly aimed at them, facility customers can also use Metalnx functionality for accessing data that has been shared with them.
 

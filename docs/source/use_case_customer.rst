@@ -16,10 +16,10 @@ Prerequisites
 =============
 
 - The user must have the iRODS iCommands command line tools installed.
-  These are only available for Linux and Mac.
+  These are only available for Linux and MacOS.
   Windows users should use the WebDAV protocol.
-- The user has knowledge of the Linux/Mac command line.
-  In experienced users are recommended to use the WebDAV protocol with a graphical client.
+- The user has knowledge of the Linux/MacOS command line.
+  Inexperienced users are recommended to use the WebDAV protocol with a graphical client.
 - The user must be able to connect to the iRODS server.
   For the server operated by CUBI, the client must be in the Charite/MDC/BIH networks or have appropriate VPN access.
 
@@ -66,10 +66,10 @@ Prerequisites
 =============
 
 - The user has knowledge of the Linux/Mac command line.
-  In experienced users are recommended to use the WebDAV protocol with a graphical client.
+  Inexperienced users are recommended to use the WebDAV protocol with a graphical client.
 - The user must have lftp installed.
-  The software is only available on Linux/Mac so such an operating system is a prerequisite for installing lftp itself.
-  Please install lftp with your Linux package manager or a tool like Homebrew for mac for installing lftp.
+  The software is only available on Linux/MacOS so such an operating system is a prerequisite for installing lftp itself.
+  Please install lftp with your Linux package manager or a tool like Homebrew for MacOS for installing lftp.
   If this poses a problem we recommend using one of the graphical WebDAV clients as described above.
 - The user must be able to connect to the iRODS server.
   For the server operated by CUBI, the client must be in the Charite/MDC/BIH networks or have appropriate VPN access.
@@ -78,4 +78,4 @@ Steps
 =====
 
 - Connect to the WebDAV server using the user's account.
-- Download the data from the ``${SOURCE}`` collection where the data for the user redies using ``mirror ${SOURCE} ${DEST}`` to the local destination directory ``${DEST}``.
+- Download the data from the ``${SOURCE}`` collection where the data for the user resides using ``mirror ${SOURCE} ${DEST}`` to the local destination directory ``${DEST}``.

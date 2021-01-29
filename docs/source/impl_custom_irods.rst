@@ -43,9 +43,9 @@ acPreSudoGroupAdd
 acPreSudoGroupRemove
     Allow users to remove groups with the name that starts with the value of any value of the ``rodeos::sudo::group-prefix`` attribute.
 acPreSudoGroupMemberAdd
-    Allow users to add members to groups the name that starts with the value of any value of the ``rodeos::sudo::group-prefix`` attribute.
+    Allow users to add members to groups with the name that starts with the value of any value of the ``rodeos::sudo::group-prefix`` attribute.
 acPreSudoGroupMemberRemove
-    Allow users to remove members from groups the name that starts with the value of any value of the ``rodeos::sudo::group-prefix`` attribute.
+    Allow users to remove members from groups with the name that starts with the value of any value of the ``rodeos::sudo::group-prefix`` attribute.
 
 --------------
 Custom Scripts

@@ -27,7 +27,7 @@ Used Software
 
 `Davrods <https://github.com/UtrechtUniversity/davrods>`__
     Davrods is a WebDAV front-end for iRODS.
-    WebDAV is a widely used protocol for accessing data in iRODS and this can be used for graphical user interfaces and an alternative to the iRODS iCommands (the command line user interface programs provided by iRODS).
+    WebDAV is a widely used protocol for accessing data in iRODS and this can be used for graphical user interfaces and is an alternative to the iRODS iCommands (the command line user interface programs provided by iRODS).
 
 `irods-sudo-microservices <https://github.com/UtrechtUniversity/irods-sudo-microservices>`__.
     is a collection of iRODS microservices (function library for the iRODS rule language) that allow privilege escalation for normal users.

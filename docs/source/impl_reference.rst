@@ -17,7 +17,7 @@ iRODS Server
     The iRODS server uses the server ``/rodeos/irods-vault`` for storing its data.
     It only has this path mounted such that it cannot access anything else from the central file system.
 HPC System
-    The HPC system has the path ``/rodeos/lz`` mounted and unix groups and permissions are used to to provide the data generation units with appropriate access to their data.
+    The HPC system has the path ``/rodeos/lz`` mounted and unix groups and permissions are used to provide the data generation units with appropriate access to their data.
     The iRODS data vault is only available to the iRODS server.
 
 -------------
@@ -31,7 +31,7 @@ Landing Zones
     These folders are exported via Windows SMB/CIFS network shares and mounted on the instrument driver computers.
     The instruments write into these directories.
 Shadow directories
-    Further, the folder ``/rodeos/lz/${UNIT}/${INST}-INST`` exists for each group and instrument and serves as the shadow folder.
+    Further, the folder ``/rodeos/lz/${UNIT}/${INST}-INGESTED`` exists for each group and instrument and serves as the shadow folder.
     This folder is not exposed to the instrument but made available to the data generation unit with appropriate unix permissions.
 
 For data processing that runs on the HPC system, the data generation (through processing) is implemented as follows.
@@ -43,7 +43,7 @@ Data Ingest
 -----------
 
 Data ingest is implemented using one dedicated ingest server that has ``/rodeos/lz`` mounted.
-There is one dedicated Unix account for the ingestion of each data generation source and that has corresponding iRODS account and is permanently authenticated as this account.
+There is one dedicated Unix account for the ingestion of each data generation source, that has corresponding a iRODS account and is permanently authenticated as this account.
 The ingest process runs as this Unix user and monitors the corresponding landing zone, ingests the data into iRODS, and moves the data from the landing zone into the shadow folder when done.
 
 -----------
@@ -71,7 +71,7 @@ Once the data is ready:
 - genomics facility staff
     - moves the data into the project-based delivery folder
     - ensures that the destination user has the appropriate permissions to read the data
-    - send out an email with the information on how to access the data to the customer
+    - sends out an email with the information on how to access the data to the customer
 - customer
     - receives the email with information
     - if necessary reads the documentation provided on a public server about the different access options

@@ -2,7 +2,7 @@
 RODEOS Main Documentation
 =========================
 
-The aim of the RODEOS (Raw Omics Data accEss and Organisation System) system is to facilitate the management and access to Omics raw mass data (e.g., genomics or proteomics data).
+The aim of the RODEOS (Raw Omics Data accEss and Organization System) system is to facilitate the management and access to Omics raw mass data (e.g., genomics or proteomics data).
 The system itself is based on the `iRODS <https://irods.org>`__ ecosystem:
 
 - iRODS for mass data storage and meta data management,

@@ -17,7 +17,7 @@ The overall process is illustrated in :numref:`fig_ingest_overview`.
 
 That is, data is being copied or written into directories that the *ingest software component* has access to.
 In most cases, each landing zone folder ``${LZ}`` has a corresponding *shadow folder* ``${LZ}-INGESTED``.
-Data items (e.g., file or directories) are written as direct members of ``${LZ}``.
+Data items (e.g., files or directories) are written as direct members of ``${LZ}``.
 By the presence or content of certain files, the ingest process detects that the data item is complete.
 Once the data has been ingested completely and successfully into iRODS, the data item is then moved into the ``${LZ}-INGESTED`` directory.
 

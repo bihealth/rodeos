@@ -13,7 +13,7 @@ It is best practice to:
 - have one account setup for each sequencing machine as these machines are usually directly accessible to any user who walks up to them,
 - have one network file share for each sequencing machine that is mounted on the machines automatically.
 
-In the case of not being able to configure file mounts through the Windows ActiveDirectory / network file share infrastructure of the organisation, a Windows BAT file such as the following one can be used to mount the network share at a given drive (here ``U:``).
+In the case of not being able to configure file mounts through the Windows ActiveDirectory / network file share infrastructure of the organization, a Windows BAT file such as the following one can be used to mount the network share at a given drive (here ``U:``).
 
 .. code-block:: winbatch
     :caption: File ``Connect RODEOS.bat``
